@@ -971,27 +971,6 @@ Cheap Call Girls in Pune">
       flex-shrink: 0;
     }
 
-    .btn-view-profile {
-      width: 100%;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border-color);
-      color: #fff;
-      padding: 9px;
-      border-radius: var(--radius-sm);
-      font-size: 0.82rem;
-      font-weight: 600;
-      cursor: pointer;
-      text-align: center;
-      transition: var(--transition);
-      margin-top: 10px;
-    }
-
-    .btn-view-profile:hover {
-      background: rgba(212, 175, 55, 0.15);
-      border-color: var(--accent-gold);
-      color: var(--accent-gold);
-    }
-
     /* Value Propositions / Why Choose Us Section */
     .features-section {
       padding: 70px 0;
@@ -1442,93 +1421,6 @@ Cheap Call Girls in Pune">
       box-shadow: 0 0 20px rgba(34, 158, 217, 0.65);
     }
 
-    /* Modal for Quick View Profile */
-    .modal-backdrop {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.85);
-      backdrop-filter: blur(10px);
-      z-index: 10000;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .modal-backdrop.show {
-      display: flex;
-      opacity: 1;
-    }
-
-    .modal-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-gold);
-      border-radius: var(--radius-lg);
-      max-width: 750px;
-      width: 100%;
-      max-height: 90vh;
-      overflow-y: auto;
-      position: relative;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), var(--shadow-gold);
-      transform: translateY(20px);
-      transition: transform 0.3s ease;
-    }
-
-    .modal-backdrop.show .modal-card {
-      transform: translateY(0);
-    }
-
-    .modal-close-btn {
-      position: absolute;
-      top: 18px;
-      right: 18px;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: rgba(0, 0, 0, 0.7);
-      border: 1px solid var(--border-color);
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      cursor: pointer;
-      z-index: 10;
-      transition: var(--transition);
-    }
-
-    .modal-close-btn:hover {
-      background: var(--accent-rose);
-    }
-
-    .modal-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .modal-img-col {
-      height: 100%;
-      min-height: 420px;
-      background: #10121d;
-    }
-
-    .modal-img-col img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .modal-info-col {
-      padding: 32px 28px;
-      display: flex;
-      flex-direction: column;
-    }
-
     /* Responsive Queries */
     @media (max-width: 992px) {
       .footer-grid {
@@ -1962,7 +1854,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(0)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2002,7 +1893,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(1)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2042,7 +1932,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(2)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2082,7 +1971,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(3)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2122,7 +2010,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(4)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2162,7 +2049,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(5)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2206,7 +2092,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(6)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2246,7 +2131,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(7)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2286,7 +2170,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(8)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2326,7 +2209,6 @@ Cheap Call Girls in Pune">
                   <span>WhatsApp</span>
                 </a>
               </div>
-              <button class="btn-view-profile" onclick="openProfileModal(9)">View Full Portfolio & Stats</button>
             </div>
           </article>
 
@@ -2922,179 +2804,8 @@ Cheap Call Girls in Pune">
     </a>
   </div>
 
-  <!-- Interactive Profile Detail Modal -->
-  <div class="modal-backdrop" id="profileModal" onclick="handleModalBackdropClick(event)">
-    <div class="modal-card">
-      <button class="modal-close-btn" onclick="closeProfileModal()" aria-label="Close modal">✕</button>
-      <div class="modal-grid">
-        <div class="modal-img-col">
-          <img id="modalProfileImg" src="" alt="Profile Image">
-        </div>
-        <div class="modal-info-col">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-            <span class="profile-badge-verified">✓ 100% VERIFIED</span>
-            <span class="profile-rating" id="modalRating">★ 4.9</span>
-          </div>
-          <h2 id="modalName" style="font-size:1.8rem; margin-bottom:4px; color:#fff;">Companion Name</h2>
-          <p id="modalLocation" style="color:var(--accent-gold); font-size:0.9rem; margin-bottom:15px;">📍 Location</p>
-          
-          <div class="profile-specs-list" style="margin-bottom:15px; padding-bottom:10px;">
-            <div class="spec-item"><span class="spec-title">Age</span><span class="spec-val" id="modalAge">24</span></div>
-            <div class="spec-item"><span class="spec-title">Height</span><span class="spec-val" id="modalHeight">5'7"</span></div>
-            <div class="spec-item"><span class="spec-title">Category</span><span class="spec-val" id="modalCategory">VIP Model</span></div>
-          </div>
-
-          <h4 style="color:#fff; font-size:0.95rem; margin-bottom:8px;">About & Persona</h4>
-          <p id="modalBio" style="color:var(--text-secondary); font-size:0.88rem; line-height:1.6; margin-bottom:16px;">
-            Warm, sophisticated, and captivating. Perfect companion for executive dinners, international travels, or private luxury stays.
-          </p>
-
-          <h4 style="color:#fff; font-size:0.95rem; margin-bottom:8px;">Specialties & Inclusions</h4>
-          <div class="profile-tags" id="modalTags" style="margin-bottom:20px;">
-            <span class="profile-tag">5-Star Hotel Accompaniment</span>
-            <span class="profile-tag">Bilingual English/Hindi</span>
-            <span class="profile-tag">Cash On Arrival</span>
-          </div>
-
-          <div style="margin-top:auto; display:flex; flex-direction:column; gap:10px;">
-            <a id="modalCallBtn" href="tel:+919279744728" class="btn-primary" style="justify-content:center; text-align:center;">
-              📞 Call To Confirm Availability
-            </a>
-            <a id="modalWaBtn" href="#" target="_blank" rel="noopener" class="btn-whatsapp" style="justify-content:center; text-align:center;">
-              💬 Instant WhatsApp Reservation
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Internal JavaScript -->
   <script>
-    // Models Data Array for Quick Modal & Dynamic Interactions (10 Profiles)
-    const profilesData = [
-      {
-        name: "Pooja",
-        age: 24,
-        height: "5'7\"",
-        location: "South Pune • GK-2 & Saket",
-        category: "VIP Model",
-        rating: "★ 4.95",
-        image: "image/call-girl-in-pune.webp",
-        alt: "call-girl-in-pune.webp",
-        bio: "Pooja is an accomplished runway and fashion model known for her charismatic personality, effortless etiquette, and magnetic social presence. She is the ideal date for luxury dinners, formal galas, and romantic evenings.",
-        tags: ["Fashion Runway", "Fine Dining Partner", "Luxury Car Accompaniment", "English & Hindi"]
-      },
-      {
-        name: "Priya",
-        age: 25,
-        height: "5'8\"",
-        location: "Aerocity • JW Marriott & Pullman",
-        category: "Celebrity",
-        rating: "★ 5.0",
-        image: "image/call-girls-in-pune.webp",
-        alt: "call-girls-in-pune.webp",
-        bio: "A prominent lifestyle socialite and high-profile companion in Pune NCR. Priya brings radiant elegance, witty conversational skills, and absolute comfort to ultra-luxurious 5-star hotel environments.",
-        tags: ["VIP Parties", "Celebrity Status", "Luxury Penthouse Dates", "Discreet & Professional"]
-      },
-      {
-        name: "Neha",
-        age: 24,
-        height: "5'6\"",
-        location: "Gurgaon • DLF Cyber City",
-        category: "Corporate Hostess",
-        rating: "★ 4.92",
-        image: "image/escort-service-call-girl-in-pune.webp",
-        alt: "escort-service-call-girl-in-pune.webp",
-        bio: "Educated in corporate communication, Neha is the premier choice for executives seeking a poised, articulate companion for business summits, executive networking dinners, and conferences.",
-        tags: ["Corporate Hostess", "Business Dinners", "Articulate Speaker", "Bilingual"]
-      },
-      {
-        name: "Ananya",
-        age: 22,
-        height: "5'5\"",
-        location: "Vasant Kunj & Connaught Place",
-        category: "Dinner Date",
-        rating: "★ 4.88",
-        image: "image/escort-service-call-girls-in-pune.webp",
-        alt: "escort-service-call-girls-in-pune.webp",
-        bio: "Gentle, charming, and genuinely attentive. Ananya creates a warm, relaxing atmosphere that dissolves demanding work stress and turns dinner dates into unforgettable memories.",
-        tags: ["Romantic Dates", "Sweet Personality", "Tranquil Evenings", "100% Verified"]
-      },
-      {
-        name: "Riya",
-        age: 23,
-        height: "5'7\"",
-        location: "Central Pune • CP & Chanakyapuri",
-        category: "VIP Model",
-        rating: "★ 4.96",
-        image: "image/pune-call-girl.webp",
-        alt: "pune-call-girl.webp",
-        bio: "Riya commands attention with her captivating gaze and graceful charm. She excels in cocktail lounge evenings, embassy-area dinners, and private executive suite companionship.",
-        tags: ["Sensual Grace", "Cocktail Lounges", "Embassy Area Dates", "Elite Companion"]
-      },
-      {
-        name: "Sneha",
-        age: 21,
-        height: "5'4\"",
-        location: "Aerocity & Pune Airport Area",
-        category: "College Star",
-        rating: "★ 4.90",
-        image: "image/pune-call-girls.webp",
-        alt: "pune-call-girls.webp",
-        bio: "Youthful, bubbly, and full of spirited laughter. Sneha is perfect for casual coffee outings, movie nights, weekend parties, and vibrant romantic company.",
-        tags: ["Youthful Charm", "Casual Dates", "Energetic & Fun", "Affordable Luxury"]
-      },
-      {
-        name: "Simran",
-        age: 26,
-        height: "5'8\"",
-        location: "South Pune • Hauz Khas & Saket",
-        category: "High Fashion",
-        rating: "★ 4.98",
-        image: "image/pune-escort-service.webp",
-        alt: "pune-escort-service.webp",
-        bio: "Tall, statuesque, and exuding high-fashion allure. Simran is frequently booked for red-carpet appearances, private yacht getaways, and luxury farmhouse celebrations.",
-        tags: ["High Fashion Model", "Travel Companion", "Red Carpet Presence", "Elite Lifestyle"]
-      },
-      {
-        name: "Kajal",
-        age: 24,
-        height: "5'6\"",
-        location: "Gurgaon • DLF Phase 5",
-        category: "Corporate Hostess",
-        rating: "★ 4.93",
-        image: "image/pune-escort.webp",
-        alt: "pune-escort.webp",
-        bio: "Smart, sophisticated, and attentive. Kajal provides worldly, intellectual companionship that matches high-powered gentlemen in conversation, wit, and taste.",
-        tags: ["Executive Hostess", "Corporate Etiquette", "Luxury Hotel Stays", "Verified"]
-      },
-      {
-        name: "Shreya",
-        age: 23,
-        height: "5'7\"",
-        location: "Chanakyapuri & South Extension",
-        category: "Elite VIP",
-        rating: "★ 4.91",
-        image: "image/pune-service-call-girl.webp",
-        alt: "pune-service-call-girl.webp",
-        bio: "Epitome of poise, intellect, and grace. Shreya is well-traveled and fluent in multiple languages, making her an exceptional partner for corporate retreats and exclusive events.",
-        tags: ["Graceful Elegance", "Cocktail Partner", "VIP Escort", "Discreet Presence"]
-      },
-      {
-        name: "Divya",
-        age: 25,
-        height: "5'6\"",
-        location: "Noida Expressway & Mayur Vihar",
-        category: "Luxury Hostess",
-        rating: "★ 4.95",
-        image: "image/pune-service.webp",
-        alt: "pune-service.webp",
-        bio: "Radiant, affectionate, and deeply attentive. Divya specializes in offering complete companionship where you feel treasured, understood, and rejuvenated.",
-        tags: ["Warm & Loving", "Private Suite Dates", "Top-Rated", "Discreet & Polite"]
-      }
-    ];
-
     // Navbar Scroll Shadow Effect
     window.addEventListener('scroll', () => {
       const header = document.getElementById('siteHeader');
@@ -3130,60 +2841,6 @@ Cheap Call Girls in Pune">
       item.classList.toggle('active');
     }
 
-    // Profile Detail Modal Handlers
-    function openProfileModal(index) {
-      const profile = profilesData[index];
-      if (!profile) return;
-
-      document.getElementById('modalProfileImg').src = profile.image;
-      document.getElementById('modalProfileImg').alt = profile.alt;
-      document.getElementById('modalName').textContent = profile.name;
-      document.getElementById('modalLocation').textContent = '📍 ' + profile.location;
-      document.getElementById('modalAge').textContent = profile.age + ' Yrs';
-      document.getElementById('modalHeight').textContent = profile.height;
-      document.getElementById('modalCategory').textContent = profile.category;
-      document.getElementById('modalRating').textContent = profile.rating;
-      document.getElementById('modalBio').textContent = profile.bio;
-
-      // Populate tags
-      const tagsContainer = document.getElementById('modalTags');
-      tagsContainer.innerHTML = '';
-      profile.tags.forEach(t => {
-        const span = document.createElement('span');
-        span.className = 'profile-tag';
-        span.textContent = t;
-        tagsContainer.appendChild(span);
-      });
-
-      // Update booking link
-      const waMsg = encodeURIComponent(`Hello Velvet Elite, I am interested in booking ${profile.name} (${profile.age} Yrs, ${profile.location}). Please confirm availability.`);
-      document.getElementById('modalWaBtn').href = `https://wa.me/919279744728?text=${waMsg}`;
-      document.getElementById('modalCallBtn').href = `tel:+919279744728`;
-
-      // Show modal
-      const modal = document.getElementById('profileModal');
-      modal.classList.add('show');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeProfileModal() {
-      const modal = document.getElementById('profileModal');
-      modal.classList.remove('show');
-      document.body.style.overflow = '';
-    }
-
-    function handleModalBackdropClick(e) {
-      if (e.target.id === 'profileModal') {
-        closeProfileModal();
-      }
-    }
-
-    // Escape Key to Close Modal
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        closeProfileModal();
-      }
-    });
   </script>
 
 </body>
