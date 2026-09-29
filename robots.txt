@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://velvetelite-pune.com/sitemap.xml
+Sitemap: https://pune-yrr.vercel.app/sitemap.xml
